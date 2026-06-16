@@ -1,0 +1,15 @@
+{
+  "name": "netdiag-cmdi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deliberately vulnerable command-injection CTF challenge (junior).",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
